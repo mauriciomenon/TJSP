@@ -20,7 +20,6 @@ nota_corte2 = 80
 
 # Classe principal da janela
 
-
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
