@@ -26,7 +26,7 @@ permissions:
 
 jobs:
   call-pr-arena-resolver:
-    uses: neulab/pr-arena/.github/workflows/pr-arena-resolver.yml@main
+    uses: neulab/pr-arena/.github/workflows/pr-arena-resolver.yml@e178a4f4065b1673994f2ad5b4a65d67b5f215d2
     with:
       issue_number: ${{ fromJson(inputs.issue_number) }}
       llm_models: ${{ inputs.llm_models }}
